@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1440px;
+    height: 810px;
+    background: #FDE3D9 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .img{
+    margin-top: 33px;
+    margin-left: 41px;
+    width: 194px;
+    height: 62px;
+    background: transparent url('assets/images/Cat-N-Dog-Logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .img2{
+margin-top: 0px;
+margin-left: 720px;
+width: 720px;
+height: 810px;
+background: transparent url('assets/images/Group2.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+  }
+  .left-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .para1{
+    margin-top: 359px;
+    margin-left: 60px;
+    width: 571px;
+    height: 162px;
+/* UI Properties */
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.para2{
+    margin-top: 542px;
+    margin-left: 60px;
+    width: 440px;
+    height: 108px;
+    letter-spacing: var(--unnamed-character-spacing--0-11);
+    text-align: left;
+    letter-spacing: -0.11px;
+    color: #6D6D6D;
+    opacity: 1;
+}
